@@ -1,0 +1,60 @@
+while True:
+    f_100 = open('C:/Users/aleks/Desktop/Новая папка/www_100.txt', 'r')
+    a_4 = f_100.read()
+    f_100.close
+
+    f_200 = open('C:/Users/aleks/Desktop/Новая папка/www_200.txt', 'r')
+    a_5 = f_200.read()
+    f_200.close
+
+    f_300 = open('C:/Users/aleks/Desktop/Новая папка/www_300.txt', 'r')
+    a_6 = f_300.read()
+    f_300.close
+
+    f_101_A = open('C:/Users/aleks/Desktop/Новая папка/www_101А.txt', 'r')
+    a_10 = f_101_A.read()
+    f_101_A.close
+
+    f_101_B = open('C:/Users/aleks/Desktop/Новая папка/www_101Б.txt', 'r')
+    a_11 = f_101_B.read()
+    f_101_B.close
+
+    f_201_A = open('C:/Users/aleks/Desktop/Новая папка/www_201А.txt', 'r')
+    a_12 = f_201_A.read()
+    f_201_A.close
+
+    f_201_B = open('C:/Users/aleks/Desktop/Новая папка/www_201Б.txt', 'r')
+    a_13 = f_201_B.read()
+    f_201_B.close
+
+    f_301_A = open('C:/Users/aleks/Desktop/Новая папка/www_301А.txt', 'r')
+    a_14 = f_301_A.read()
+    f_301_A.close
+
+    f_301_B = open('C:/Users/aleks/Desktop/Новая папка/www_301Б.txt', 'r')
+    a_15 = f_301_B.read()
+    f_301_B.close
+
+    f_102 = open('C:/Users/aleks/Desktop/Новая папка/www_102.txt', 'r')
+    a_7 = f_102.read()
+    f_102.close
+
+    f_202 = open('C:/Users/aleks/Desktop/Новая папка/www_202.txt', 'r')
+    a_8 = f_202.read()
+    f_202.close
+
+    f_302 = open('C:/Users/aleks/Desktop/Новая папка/www_302.txt', 'r')
+    a_9 = f_302.read()
+    f_302.close
+
+    f_103 = open('C:/Users/aleks/Desktop/Новая папка/www_103.txt', 'r')
+    a_1 = f_103.read()
+    f_103.close
+
+    f_203 = open('C:/Users/aleks/Desktop/Новая папка/www_203.txt', 'r')
+    a_2 = f_203.read()
+    f_203.close()
+
+    f_303 = open('C:/Users/aleks/Desktop/Новая папка/www_303.txt', 'r')
+    a_3 = f_303.read()
+    f_303.close()

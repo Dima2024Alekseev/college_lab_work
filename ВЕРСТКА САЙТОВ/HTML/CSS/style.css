@@ -1,0 +1,65 @@
+a {
+    color: rgb(154, 156, 99);
+    font-size: 16px;
+}
+
+div {
+    color: red;
+}
+
+#color {
+    color: lime;
+}
+
+.human {
+    color: blue;
+}
+
+.human:hover {
+    color: black;
+}
+
+.animal {
+    color: red;
+}
+
+.fish {
+    color: aqua;
+}
+
+.ramka{
+    font-size: 20px;
+    color: black;
+    background-color: wheat;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.warning {
+    background-color: red;
+    color: black;
+    border: 1px solid;
+}
+.fail {
+    background-color: yellow;
+    color: black;
+    border: 1px solid;
+}
+
+.info {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+
+.warning {
+    background-color: red;
+    color: black;
+    border: 1px solid;
+}
+
+.ramka:hover {
+
+    border: 5px solid black;
+}

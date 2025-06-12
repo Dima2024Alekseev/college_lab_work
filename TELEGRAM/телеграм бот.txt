@@ -1,0 +1,97 @@
+import telebot 
+from telebot import types 
+ 
+ 
+token = "6212853265:AAFxQbHx61LOlq6qnZ8O9F7Yi0nMMhbzgag" 
+bot = telebot.TeleBot(token) 
+
+@bot.message_handler(commands = ['fizvoz'])
+def fizvoz(message):
+    markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
+    item1 = types.KeyboardButton('100')
+    item2 = types.KeyboardButton('200')
+    item3 = types.KeyboardButton('300')
+    back = types.KeyboardButton('🔙 назад')
+    markup.add(item1, item2, item3,back)
+    bot.send_message(message.chat.id, 'Выберите группу ',reply_markup=markup)
+
+@bot.message_handler(commands = ['pk'])
+def pk(message):
+    markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
+    item1 = types.KeyboardButton('103')
+    item2 = types.KeyboardButton('203')
+    item3 = types.KeyboardButton('303')
+    back = types.KeyboardButton('🔙 назад')
+    markup.add(item1, item2, item3,back)
+    bot.send_message(message.chat.id, 'Выберите группу ',reply_markup=markup)
+
+@bot.message_handler(commands = ['elementary_grades'])
+def elementary_grades(message):
+    markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
+    item1 = types.KeyboardButton('101 А')
+    item2 = types.KeyboardButton('101 Б')
+    item3 = types.KeyboardButton('201 А')
+    item4 = types.KeyboardButton('201 Б')
+    item5 = types.KeyboardButton('301 А')
+    item6 = types.KeyboardButton('301 Б')
+    back = types.KeyboardButton('🔙 назад')
+    markup.add(item1, item2, item3, item4, item5, item6, back)
+    bot.send_message(message.chat.id, 'Выберите группу ',reply_markup=markup)
+
+@bot.message_handler(commands = ['preschool_education'])
+def preschool_education(message):
+    markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
+    item1 = types.KeyboardButton('102')
+    item2 = types.KeyboardButton('202')
+    item3 = types.KeyboardButton('302')
+    back = types.KeyboardButton('🔙 назад')
+    markup.add(item1, item2, item3, back)
+    bot.send_message(message.chat.id, 'Выберите группу ',reply_markup=markup)
+
+
+@bot.message_handler(commands = ['close'])
+def close(message):
+    markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
+    item1 = types.KeyboardButton('🏋️ Физическое культура')
+    item2 = types.KeyboardButton('👼 Дошкольнное образование')
+    item3 = types.KeyboardButton('👩‍🏫 Преподавание в начальных классах')
+    item4 = types.KeyboardButton('💻 Прикладная информатика')
+
+    markup.add(item1, item2, item3, item4)
+    bot.send_message(message.chat.id,'Вы в главном меню', reply_markup= markup)
+ 
+@bot.message_handler(commands = ['start'])
+def start(message):
+    markup = types.ReplyKeyboardMarkup(resize_keyboard= True)
+    item1 = types.KeyboardButton('🏋️ Физическое культура')
+    item2 = types.KeyboardButton('👼 Дошкольнное образование')
+    item3 = types.KeyboardButton('👩‍🏫 Преподавание в начальных классах')
+    item4 = types.KeyboardButton('💻 Прикладная информатика')
+    markup.add(item1, item2, item3, item4) 
+    bot.send_message(message.chat.id,'Привет, {0.first_name}!'.format(message.from_user), reply_markup= markup)
+    
+    
+@bot.message_handler(content_types=['text'])
+def bot_message(message):
+    if message.chat.type == 'private':
+        if message.text == '🏋️ Физическое культура':
+            fizvoz(message)
+        elif message.text == '🔙 назад':
+           close(message) 
+        elif message.text == '💻 Прикладная информатика':
+            pk(message)
+        elif message.text == '👩‍🏫 Преподавание в начальных классах':
+            elementary_grades(message)
+        elif message.text == '👼 Дошкольнное образование':
+            preschool_education(message)
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+bot.polling(none_stop = True)

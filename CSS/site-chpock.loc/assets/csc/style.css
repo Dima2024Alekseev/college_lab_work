@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sigmar&display=swap');
+body {
+    background-color: rgb(2, 200, 255);
+    color: blue;
+}
+
+.img_2{
+    width: 100PX;
+    margin: 0 auto;
+    display: block;
+    margin-left: 100px;
+   ;
+}
+.img_3{
+    width: 100PX;
+    margin: 0 auto;
+    display: block;
+    margin-left: 100px;
+     
+}
+.img_4{
+    width: 100PX;
+    margin: 0 auto;
+    display: block;
+    margin-left: 100px;
+    
+}
+.img_5{
+    width: 100PX;
+    margin: 0 auto;
+    display: block;
+    margin-left: 100px;
+   
+}
+.img_6{
+    width: 100PX;
+    margin: 0 auto;
+    display: block;
+    margin-left: 100px;  
+}
+.img8{
+    width: 100PX;
+    margin: 0 auto;
+    display: block;
+    margin-left: 100px;   
+}
+
+p{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.name{
+    font-size: 22 px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description{
+  font-size: 22px;
+  font-family: 'Sigmar', cursive;
+}

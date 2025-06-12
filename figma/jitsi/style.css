@@ -1,0 +1,516 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+.header-image{
+    width: 100%;
+    height: 360px;
+    background:linear-gradient(0deg,#0003,#0003),linear-gradient(90deg,#000 0,#0000 75.16%), url("https://web-cdn.jitsi.net/meetjitsi_7629.4458/images/welcome-background.png");
+    background-repeat: no-repeat;    
+}
+
+.logo{
+   background-image: url("https://web-cdn.jitsi.net/meetjitsi_7629.4458/images/watermark.svg");
+   width: 120px;
+   height: 80px;
+   margin-top: -310px;
+   background-repeat: no-repeat;
+   margin-left: 20px;
+}
+
+
+.welcome .welcome-page-settings * {
+    cursor: pointer;
+}
+
+
+
+.welcome .welcome-page-settings {
+    background: rgba(255, 255, 255, 0.201);
+    border-radius: 5px;   
+}
+
+.jitsi-icon1-default svg {
+    fill: #ffffff;
+    background: silver;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+}
+
+.jitsi-icon1-default svg:hover{
+    background-color: rgba(192, 192, 192, 0);
+}
+
+
+
+
+.toolbox-button {
+    cursor: pointer;
+    line-height: 48px;
+}
+
+
+.welcome-page-settings{
+    margin-top: -315px ;
+    margin-left: 550px;
+}
+
+
+
+
+
+
+
+.flex_1{
+    display: flex;
+    margin-left: 280px;
+}
+
+span{
+    margin-top: -100px;
+}
+
+.test_2{
+    margin-top:  -210px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.test_3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.test_4{
+    font-size: 40px;
+}
+
+
+.contener{
+    text-align: center;
+}
+
+
+
+.welcome-page-button {
+    border: 0;
+    font-size: 14px;
+    background: #0074e0;
+    border-radius: 3px;
+    color: #fff;
+    padding: 16px 20px;
+}
+
+.welcome-page-button:hover{
+    background: red;
+}
+
+button, form {
+    display: block;
+}
+
+
+button, input, select, textarea {
+    margin: 0;
+    font-size: 1em;
+}
+
+body, button, input, keygen, select, textarea {
+    font-family: -apple-system,BlinkMacSystemFont,open_sanslight,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+
+
+.join-meeting-container {
+    margin: 0 auto;
+    padding: -20px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    width: 500px;
+    color: #253858;
+    flex-direction: row;  
+}
+
+.test_5{
+    margin-left: 10px;
+    padding: 3px;
+}
+
+input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 1px;
+    width: 320px;
+    padding-right: 10px;
+    border: none;
+}
+
+.enter-room-input-container{
+    margin-left: 5px;
+}
+
+#enter_room{
+    margin-top: 20px;
+}
+
+.test_7{
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
+    border-radius: 4px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.test_10{
+    margin-top: 50px;
+    background-color: #cde1f6;
+    margin-left:  300px;
+    margin-right: 300px;
+    padding-bottom: 150px;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y:scroll;
+}
+
+.scrollable-block::-webkit-scrollbar {
+    width: 10px; /* Ширина скроллбара */
+    background-color: #f1f1f1; /* Цвет фона скроллбара */
+  }
+  
+.scrollable-block::-webkit-scrollbar-thumb {
+    background-color: gray; /* Цвет скроллбара */
+  }
+  
+.scrollable-block::-webkit-scrollbar-thumb:hover {
+    background-color: darkgray; /* Цвет скроллбара при наведении */
+  }
+
+.test_11{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.but_1{
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(36, 36, 206);
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.but_2{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(36, 36, 206);
+    background-color:#9cc1e4;
+    border: none;
+    margin-top: 10px;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 13px;
+}
+
+.hide {
+    display: none!important;
+}
+
+
+
+::-webkit-scrollbar {
+    background: 0 0;
+    width: 7px;
+    height: 7px;
+}
+
+
+.img_1{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.direct{
+    text-align: center;
+    color: #2f3237;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 20px;
+}
+
+
+
+.enter-box{
+    display: flex;
+    align-items: center;
+    max-width: 480px;
+    width: calc(100% - 32px);
+    height: fit-content;
+}
+
+.enter-box-content{
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    color: #253858;
+}
+.enter-box-content-input{
+    flex-grow: 1;
+    padding-right: 4px;
+}
+
+.form{
+    display: block;
+}
+
+.content-input{
+    border-radius: 4px;
+    border: 0;
+    background: #fff;
+    display: inline-block;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 10px;
+    width: 268.156px;
+}
+
+.enter-box-content-button{
+    border: 0;
+    font-size: 14px;
+    background: #0074e0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 20px;
+}
+
+
+
+
+
+.test_12{
+    vertical-align: inherit;
+}
+
+.direct_1{
+    font-size: 14px;
+    color: #0163ff;
+    line-height: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 2px;
+    padding-left: 50px;
+}
+
+.direct_2{
+    display: flex;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.jitsi-icon-default svg {
+    fill: #ffffff;
+    background-color: #cde1f6;
+}
+
+.test_14{
+    margin-top: 20px;
+    background-color: #3d3e3e;
+    margin-left:  300px;
+    margin-right: 300px;
+    padding-bottom: 30px;
+    border-radius: 10px;  
+}
+
+.test_17{
+    display: flex;
+}
+
+.img_2{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.test_16{
+    color: white;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.font{
+    font-size: 22px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.marg{
+    margin-top: 5px;
+}
+
+.font_2{
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+p{
+    margin-top: 5px;
+}
+
+.but_3{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.podval{
+    background-color: rgb(20, 20, 20);
+    padding: 200px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.podval_2{
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.podval_3{
+    display: flex;
+    margin-top: -150px;
+    margin-left: 100px;
+    border-bottom: 1px solid rgb(61, 60, 60);
+    padding-bottom: 30px;
+    margin-right: 100px;
+}
+
+.podval_4{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.test_18{
+    margin-left: 20px;
+}
+
+.test_19{
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex_2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(61, 60, 60);
+    padding-bottom: 50px;
+    margin-right: 100px;
+}
+
+.test_20{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.podval_5{
+    margin-left: 50px;
+}
+
+#test_21{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.pos{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-bottom: 1px solid  rgb(61, 60, 60);
+    padding-bottom: 30px;
+    margin-right: 100px;
+}
+
+.test_22{
+    margin-left: 30px;
+}
+
+.img_3{
+    margin-left: 140px;
+    display: flex;
+}
+
+.flex_3{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.test_23{
+    margin-left: 20px;
+    margin-top: -5px;
+}
+
+.test_24{
+    color: #a1a1a3;
+    font-size: 12px;
+    line-height: 16px;
+}

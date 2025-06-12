@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(75, 187, 243);
+}
+.block {
+    
+    height: 150px;
+    width: 300px;
+    border: 3px  solid rgb(0, 0, 0);/*рамка объекта*/
+    border-top-style:solid;
+    border-radius: 15px;/*закругление углов*/
+    opacity: 0.9;/*прозрачность объекта*/
+    margin: 10px; /* внешний отступ */
+    padding: 20px;
+    display: block; /* Позволяет из строчного тега сделать блочным */
+}
+
+#color_1{
+    background-color: white;
+}
+
+#color_2{
+    background-color: blue;
+    color: white;
+}
+
+#color_3 {
+    background-color: red;
+}

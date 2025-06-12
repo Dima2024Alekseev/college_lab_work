@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(0deg,#0003,#0003),linear-gradient(90deg,#000 0,#0000 75.16%), url("https://web-cdn.jitsi.net/meetjitsi_7629.4458/images/welcome-background.png");
+    padding-bottom: 15px;
+    background-color: #131519;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.header-box{
+    width: 688px;
+}
+
+.header-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.icon-settings {
+    background: rgba(255,255,255,.38);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.jitsi-icon-default svg {
+    fill: #fff;
+}
+
+.welcome-page-settings * {
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.svg-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.icon-parameters{
+    width: 30px;
+    height: 30px;
+}
+
+.header-text{
+    text-align: center;
+}
+
+.header-text-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 0;
+    max-width: initial;
+    opacity: 1;
+    margin-top: 60px;
+}
+
+.header-text-subtitle{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 500px;
+}
+
+.header-text-sub{
+    margin: 16px 0 32px 0;
+}
+
+.enter-box{
+    display: flex;
+    align-items: center;
+    max-width: 480px;
+    width: calc(100% - 32px);
+    height: fit-content;
+}
+
+.enter-box-content{
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    color: #253858;
+}
+.enter-box-content-input{
+    flex-grow: 1;
+    padding-right: 4px;
+}
+
+.form{
+    display: block;
+}
+
+.content-input{
+    border-radius: 4px;
+    border: 0;
+    background: #fff;
+    display: inline-block;
+    height: 50px;
+    font-size: 14px;
+    padding-left: 10px;
+    width: 268.156px;
+}
+
+.enter-box-content-button{
+    border: 0;
+    font-size: 14px;
+    background: #0074e0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 20px;
+}
+
+.header-text-low{
+    font-size: 12px;
+    margin-top: 16px;
+    color: inherit;
+    font-weight: 400;
+    color: #f1f1f1;
+}
+
+.header-text-low a{
+    color: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.main-content{
+    color: #131519;
+    padding-top: 40px;
+}
+
+.avarage-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 688px;
+    margin: auto;
+}
+
+.avarage-content-1-cell{
+    background: #d5e5ff;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.tab-container{
+    font-size: 16px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-buttons{
+    background-color: #c7ddff;
+    border-radius: 6px;
+    color: #0163ff;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 4px;
+    display: flex;
+}
+
+.tab-buttons [role=tab][aria-selected=true] {
+    background-color: #fff;
+}
+
+.tab-buttons [role=tab] {
+    background-color: #c7ddff;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    flex-grow: 1;
+    margin: 2px;
+    padding: 7px 0;
+    text-align: center;
+    color: inherit;
+    border: 0;
+}
+
+.tab-buttons [role=tab] {
+    background-color: #c7ddff;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    flex-grow: 1;
+    margin: 2px;
+    padding: 7px 0;
+    text-align: center;
+    color: inherit;
+    border: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab-content {
+    display: inherit;
+    height: 250px;
+    margin: 5px 0;
+    overflow: hidden;
+    flex-grow: 1;
+    position: relative;
+}
+
+.meetings-list{
+    font-size: 14px;
+    color: #253858;
+    line-height: 20px;
+    text-align: left;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+.meetings-list-empty {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.meetings-list-empty-image {
+    text-align: center;
+    margin: 24px 0 20px 0;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f3237;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 16px;
+    max-width: 436px;
+}
+
+.meetings-list-empty-button {
+    align-items: center;
+    color: #0163ff;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 24px 0 32px 0;
+}
+
+.meetings-list-empty-icon{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.meetings-list-empty-icon svg {
+    fill: #fff;
+}
+
+.meetings-list-empty-button {
+    align-items: center;
+    color: #0163ff;
+    cursor: pointer;
+    display: flex;
+    line-height: 18px;
+    margin: 24px 0 32px 0;
+}
+
+.meetings-list-empty-text{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.avarage-content-2-cell{
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 8px;
+    background: #444447;
+    color: #fff;
+}
+
+.avarage-content-text{
+    padding: 32px;
+}
+
+.avarage-content-logo{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-8x8{
+    margin-right: 16px;
+}
+
+
+.avarage-content-title{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: none;
+    margin: 30px 0 0 0;
+}
+
+.avarage-content-paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0 24px 0;
+    width: 400;
+}
+
+a{
+    color: #44a5ff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.avarage-content-button{
+    color: #36373a;
+    background: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 16px;
+    position: relative;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+.welcome-footer{
+    background: #131519;
+    color: #fff;
+    margin-top: 40px;
+    position: relative;
+}
+
+.welcome-footer-centered{
+    max-width: 688px;
+    margin: 0 auto;
+}
+
+.welcome-footer-padded{
+    padding: 0 16px;
+}
+
+.welcome-footer--row-1{
+    padding: 40px 0 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #424447;
+
+}
+
+.welcome-footer-row-1-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px 16px 0px 0px;
+    max-width: 200px;
+    line-height: 1.5;
+
+}
+
+.welcome-badge{
+    height: 40px;
+}
+
+
+
+.welcome-footer--row-2{
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #424447;
+}
+
+.welcome-footer-row-2-text{
+    margin-right: 32px;
+}
+
+.welcome-footer-row-2-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.welcome-footer--row-3{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #424447;
+}
+
+.welcome-footer-link{
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome-page-sm{
+    margin-left: 24px;
+}
+
+.welcome-footer--row-4{
+    padding: 32px 0 56px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo-8x8-2 {
+    margin-right: 32px;
+}
+
+.welcome-footer-row-4-text {
+    color: #a1a1a3;
+    font-size: 12px;
+    line-height: 16px;
+}

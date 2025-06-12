@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins&family=Sigmar&display=swap');
+.main_text {
+    color: black;
+    text-align: center;/*текст размещается по середине */
+    font-size: 20px;/*размер текста*/
+    font-style: normal;
+    font-weight: 500;/*;жирность текста*/
+    font-family: 'Lumanosimo', cursive;
+    text-transform: capitalize;/*нижний регистр текста*/
+    word-spacing: 15px; /*пространство между словами*/
+    letter-spacing: 2px;/*пространство между символами*/
+    line-height: 40px;/*расстояние между строками*/
+}

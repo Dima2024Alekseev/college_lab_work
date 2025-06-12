@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2? Family= Lumanosimo & Family= Montserrat:wght@900 & Family= Poppins & Family= Raleway:wght@100 & Family= Roboto+Slab: wght@200;700 & Family= Rubik+Iso & Family= Sigmar & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&family=Tenor+Sans&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,800&family=Tenor+Sans&family=Ubuntu:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:ital,wght@0,300;1,800&family=Tenor+Sans&family=Ubuntu:ital,wght@0,700;1,500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    width: 1280px;
+    margin: auto;
+}
+
+.header{
+    height: 100px;
+}
+
+.site{
+    margin: auto;
+}
+
+.flex-1{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E2E3EF;;
+}
+
+.text-1{
+    color: #F35A05;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-2{
+    color: #07040C;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.13px;
+}
+
+.flex-logo{
+    display: flex;
+    align-items: center;
+}
+
+.text-group-1{
+    margin-left: 10px;
+}
+
+.text-3{
+    color: #07040C;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.flex-2{
+    display: flex;
+    align-items: center;
+    margin-left: 244px;
+}
+
+.button-enter{
+    width: 80px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #000;
+}
+
+
+#x1{
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.flex-3{
+    display: flex;
+    align-items: center;
+}
+
+.text-group-1{
+    height: 50px;
+}
+
+.text-4{
+    width: 614px;
+    color: #07040C;
+    font-family: Ubuntu;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-5{
+    width: 510px;
+    color: #585967;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 29px */
+    margin-top: 30px;
+}
+
+.button-1{
+    width: 220px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F35A05;
+
+}
+
+.button-1:hover{
+    background-color: aqua;
+}
+
+.text-6{
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 22px;
+}
+
+.flex-5{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.text-7{
+    width: 220px;
+    color: #808296;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 23.2px */
+}
+
+.flex-4{
+    display: flex;
+    align-items: center;
+}
+
+.img-1{
+    margin-left: 40px;
+}
+
+.ots-1{
+    padding-top: 30px;
+}
+
+.box-2{
+    height: 540px;
+}
+
+.text-8{
+    color: #07040C;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 30px */
+    margin-top: 10px;
+}
+
+.text-9{
+    color: #585967;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 23.2px */
+    margin-top: 15px;
+}
+
+.flex-7{
+    width: 224px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.flex-6{
+    display: flex;
+}
+
+.text-10{
+    color: #07040C;
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.flex-9{
+    display: flex;
+    align-items: center;
+}
+
+.text-11{
+    color: #07040C;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.flex-8{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+
+}
+
+.text-12{
+    color: #07040C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 1;
+}
+
+.text-13{
+    color: #585967;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.x2{
+    margin-top: 15px;
+}
+
+.x3{
+    margin-top: 10px;
+}
+
+.block-1{
+    width: 575px;
+    height: 310px;
+    position: relative;
+    z-index: 2;
+    right: 40px;
+    bottom: 33px;
+    background-image: url("/assets/img/Group\ 54.png");
+}
+
+.flex-11{
+    display: flex;
+}
+
+.flex-10{
+    display: flex;
+    margin-top: 50px;
+}
+
+.flex-13{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+
+.text-14{
+    color: #07040C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 400px;
+}
+
+.img-2{
+    position: relative;
+    
+    z-index: 1;
+    left: 205px;
+    bottom: 12px;
+}
+
+.x4{
+    z-index: 2;
+    height: 23.33px;
+}
+
+.text-15{
+    color: #585967;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-top: 15px;
+}
+
+.x5{
+    width: 425px;
+    margin-left: 80px;
+}
+
+.button-2{
+    width: 220px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F35A05;
+    display: flex;
+    margin: auto;
+}
+
+.text-16{
+    color: #FFF;
+    font-family: Ubuntu;
+    margin: auto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.ots-2{
+    margin-top: 142px;
+}
+
+.text-17{
+    color: #07040C;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+}
+
+.text-18{
+    color: #F35A05;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 30px */
+    margin-left: 15px;
+}
+
+.flex-14{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.text-19{
+    color: #585967;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 23.2px */
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.x6{
+    width: 1195px;
+    margin-top: 20px;
+}
+
+.text-20{
+    color: #07040C;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 30px */
+}
+
+.text-20:hover{
+    color: orangered;
+
+}
+
+.flex-15{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 22.5px;
+    padding-top: 30px;
+}
+
+.flex-15:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.x7{
+    height: 80px;
+    
+}
+
+.img-4{
+    margin-right: 18.75px;
+}
+
+.box-5{
+    margin-top: 152px;
+}
+
+.box-6{
+    margin-top: 133px;
+}
+
+.foter{
+    width: 100%;
+    background-color: #07040C;
+    height: 250px
+}
+
+.text-2-1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.text-21{
+    color: #CACBD7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.x8{
+    margin-top: 25px
+}
+
+.text-22{
+    color: #CACBD7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 23.2px */
+    margin-bottom: 20px;
+}
+
+.text-23{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 26.1px */
+}
+
+.flex-16{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.x9{
+    margin-left: 99px;
+    width: 220px;
+}
+
+.x10{
+    margin-left: 57px;
+    width: 220px;
+}
+
+.x11{
+    margin-top: 30px;
+    margin-left: 53px;
+}

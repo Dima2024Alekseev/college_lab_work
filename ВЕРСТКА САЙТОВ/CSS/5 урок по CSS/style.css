@@ -1,0 +1,13 @@
+#first {
+    background-color: rgb(241, 183, 107);
+    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663441026_50-mykaleidoscope-ru-p-severnaya-amerika-kanon-kolorado-oboi-56.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;/*делает картинку автоматически на весь экран по ширине*/
+    background-attachment: fixed;/*фиксирует картинку на экране */
+}
+
+#second {
+    height: 2000p x;
+}

@@ -1,0 +1,5 @@
+
+text = input('Введите текст: ')
+#text = text.split()
+a = len(text)
+print(a)

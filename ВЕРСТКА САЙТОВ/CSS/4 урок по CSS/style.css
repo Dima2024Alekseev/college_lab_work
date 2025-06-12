@@ -1,0 +1,32 @@
+p.text:empty { /*выбор пустых абзацев*//*not(empty)-выбор не пустых абзацев*/
+    color: blueviolet;
+}
+
+#some_id::after{
+    content: ' 123';
+    color: red;
+    text-decoration: line-through;
+}
+.main{
+    color: red;
+    text-decoration: underline;
+}
+
+.main:hover{
+    color: green;
+    text-decoration: overline; /*линия ссылки*/
+    text-decoration-color: black ;/*цвет линии для ссылки*/
+    cursor:pointer;
+}
+
+.main:active {
+    text-decoration:line-through; /*перечеркивание текста при нажатие левой кнопкой мыши*/
+}
+
+.main:visited {
+    text-decoration: line-through;
+    color: grey;
+}
+
+input{color:blue}
+input:focus{color: red;}

@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body{
+    background: linear-gradient(to left, #ff0000, #0000ff);
+    min-width: 320px;
+}
+
+
+
+
+/* ================================== start config ========================================= */
+
+.about,
+.servises,
+.pricing,
+.fun,
+.client,
+.quote,
+.footer{
+    padding: 40px 0 60px;
+}
+
+/* ================================== end config ========================================= */
+
+
+/*Левый блок*/
+.container{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+
+
+
+.info{
+    background-color: white;
+    width: 53.3%;
+    height: 600px;
+    min-width: 53.3%;
+    border-radius: 10px 0px 0px 10px;
+    overflow-x:hidden;
+    margin-top: 20px;
+    order: 2;
+    box-shadow: 0px 0px 10px #333,
+    5px 15px 10px #333;
+}
+
+.color_text{
+    color: rgb(122, 0, 132);
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+    
+    justify-content: space-around;
+}
+
+.ul{
+    padding-left: 20px;
+    font-size: 17px;
+    text-align: right;
+    margin-left: 50px;
+    line-height: 40px;
+}
+
+
+
+.int{
+    font-size: 17px;
+    text-align: right;
+}
+
+.servises{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+    
+}
+.servis{
+    max-width: 45%;
+    padding: 25px 20px;
+    width: calc(100%/4);
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px 0;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+
+
+.servis svg{
+    width: 50px;
+    height: 50px;
+}
+
+.prising svg{
+    width: 50px;
+    height: 50px;
+}
+
+
+.servis:hover,
+.pro:hover,
+.basic:hover,
+.interval:hover{
+    background-color: #ac9951;
+    color: white;
+    box-shadow: 5px 5px 1px #333;
+    fill: #fff;
+}
+
+
+
+
+.social svg:hover{
+    fill: rgb(174, 0, 82);
+    width: 27px;
+    height: 27px;
+    
+}
+
+.item-footer--btn:hover{
+    background-color: #0000ff;
+    color: white;
+    fill: white;
+}
+
+
+
+
+
+
+.fon{
+    background-color: rgb(72, 0, 183);
+    color: white;
+    border-radius: 3px;
+    padding-right: 5px;
+}
+
+
+.text_about{
+    text-align: right;
+    font-family: 'Roboto';
+    margin-right: 20px;
+    margin-right: 30px;
+}
+
+
+
+p{
+    font-family: "Roboto";
+}
+
+.app{
+    
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.app_3{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+    padding-bottom: 30px;
+
+}
+
+
+.text_app{
+    text-align: center;
+  
+}
+
+.text_app_end{
+    text-align: right;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+
+
+.prising{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+
+
+
+.sale_flex{
+    display: flex;
+    gap: 290px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.sale{
+    display: flex;
+    gap: 10px;
+}
+
+.pro,
+.basic{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.107);
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    padding: 25px 20px;
+    align-items: center
+}
+
+
+
+
+.fun{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.107);
+}
+
+.fun_flex{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px 0;
+}
+
+.interval{
+    gap: 20px 0;
+    padding: 25px 20px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+}
+
+.finish,
+.coffee,
+.champion,
+.music{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center
+}
+
+.text_fun_fact{
+    font-size: 18px;
+    text-align: center;
+}
+
+.img_fun_fact{
+    margin-left: 15px;
+}
+
+.text_fun{
+    font-size: 18px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.client_flex{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+
+.client{
+ 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.107);
+   
+}
+
+.text_client{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.quote{
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.107);
+    
+}
+
+.quote_text{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+
+
+.text_quote{
+    text-align: center;
+}
+
+.end {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.quote_img_right{
+    margin-top: 15px;
+}
+
+.end_image{
+    border-radius: 50px;
+    
+}
+
+.footer_end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.text_end{
+    font-size: 20px;
+    text-align: center;
+}
+
+.info{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+.information{
+    margin-top: 10px;
+}
+
+.text_3{
+    color: rgb(122, 0, 132);
+}
+
+
+
+.text_1{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+
+.test{
+    margin-left: 15px;
+}
+
+
+.prasing{
+    width: 100%;
+    padding-bottom: 40px;
+   
+    height: auto;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.card-item{
+    gap: 15px;
+    
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 35px 20px;
+    transition: all 0.5s ease;
+}
+.card-item:hover,
+.ava_button:hover{
+    box-shadow: 5px 5px 10px #aaa;
+
+}
+.item-header{
+    padding: 60px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    
+}
+.item-header svg{
+    width: 40px;
+    height: 40px;
+}
+.item-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+.item-footer--btn{
+    padding: 20px 15px;
+    border: 1px solid rgba(0, 0, 252, 0.719);
+    color: rgba(0, 0, 252, 0.719);
+    fill: rgba(0, 0, 252, 0.719);
+    border-radius: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+
+
+.footer{
+    padding-bottom: 20px;
+}
+
+/*--------------Скролбар------------ */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(125, 0, 130);
+    border-radius: 4px;
+}
+/*--------------Скролбар------------ */
+
+
+@media screen and (max-width: 1200px){
+    .client_flex {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+    
+}
+
+
+@media (min-width: 992px){
+
+}
+
+@media screen and (max-width:768px){
+    .cards {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .int{
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:480px){
+    .client_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .end{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    }
+    .quote_img_right{
+        margin-top: 0px;
+    }
+}
+
+@media(min-width:320px){
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .container{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .ava,
+    .info{
+        position: relative;
+        height: auto;
+        overflow: visible;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+}
+/*---------------------------------*/

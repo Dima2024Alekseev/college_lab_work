@@ -1,0 +1,13 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+
+.color {
+    background-color: rgb(151, 227, 227);
+}
+
+div b {
+    color: lime;
+}
