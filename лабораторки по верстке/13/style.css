@@ -1,0 +1,66 @@
+h1:before{ /*применяется для отображения желаемого контента до содержимого элемента, к которому он добавляется. */ 
+    content: " "; /* позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. */
+    background: silver;
+    width: 10px;
+    height: 555px;
+    float: left;
+    margin-right: 20px;
+    }
+
+.test{
+    background-color: rgba(68, 66, 66, 0.927);
+    color: white;
+    font-size: 15px;
+}
+
+.test_1{
+    width: 10px;
+}
+
+.test_2{
+   width: 20px;
+}
+
+.test_5{
+    width: 150px;
+}
+
+.test_3{
+    text-align: center;
+    color: rgb(10, 119, 244);
+    font-size: 20px;
+    margin:auto
+    
+}
+
+.test_6{
+    padding-bottom:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.test_7{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+}
+
+.test_8{
+    width: 700px;
+}
+
+.test_9{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.test_10{
+    float:left;
+    margin-right: 5px;
+}
+
+.test_11{
+    margin-left: 50px;
+}
+

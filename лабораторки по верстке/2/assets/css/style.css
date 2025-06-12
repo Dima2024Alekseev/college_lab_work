@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(153, 153, 79);
+}
+
+.color{
+    background-color: rgb(15, 183, 15);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 200px;
+    box-shadow: 15px 15px 3px rgb(219, 10, 10);
+
+}
+
+h1{
+    text-align: center;
+    word-spacing: 30px;
+    border-radius: 5px;
+    
+}

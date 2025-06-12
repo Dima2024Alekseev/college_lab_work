@@ -1,0 +1,21 @@
+.xy{
+    border-radius: 20px;
+    outline: 2px dashed white;
+    background: rgb(243, 3, 3);
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    margin-left: 400px;
+    margin-right: 400px;
+    outline-offset: -10px;
+    font-size: 35px;
+  }
+  b{
+    color: black;
+    background-color: orange;
+  }
+  h5{
+    padding-bottom: 55px;
+  }
+  
+

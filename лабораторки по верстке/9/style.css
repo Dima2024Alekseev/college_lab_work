@@ -1,0 +1,22 @@
+h5{
+    background-color: rgb(33, 174, 179) ;
+    color: white;
+    border: 5px solid rgb(33, 174, 179);
+}
+
+.flex-container{
+   display: flex;
+}
+
+.test_1{
+    padding-left: 10px ;
+    padding-right: 10px;
+}
+
+#color{
+    background-color: orange;
+}
+
+#color_1{
+    color:orange;
+}

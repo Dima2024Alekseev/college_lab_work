@@ -1,0 +1,48 @@
+.test{
+    margin-left: 100px;
+    
+}
+#test_1{
+    color: red;
+    
+}
+
+#test_3{
+    color: green;
+}
+
+b:before{ /*применяется для отображения желаемого контента до содержимого элемента, к которому он добавляется. */ 
+    content: " "; /* позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. */
+    background: green;
+    width: 10px;
+    height: 555px;
+    float: left;
+    margin-right: 20px;
+    }
+
+li{
+    color: green;
+    font-size: 30px;
+}
+
+.test_6{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.test_7{
+    margin-left: 80px;
+}
+
+p{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 800px;
+}

@@ -1,0 +1,28 @@
+.test{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.test_3{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#maket{
+    margin: auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+TD {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+    padding: 5px; /* Поля вокруг ячеек */
+   }
+
+#spacer{
+    width: 30px;
+}
+
+.im{
+    float: left;
+    margin-right: 15px;
+}

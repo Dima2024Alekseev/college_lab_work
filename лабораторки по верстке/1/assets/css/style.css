@@ -1,0 +1,50 @@
+body{
+background-color: white;
+}
+
+.test{
+    margin: auto;
+    font-size: 35px;
+}
+
+.test_1{
+    background-color: rgba(192, 192, 192, 0.984);
+    color: black;
+    padding-right: 100px;
+    padding-left: 100px;
+    background:
+    repeating-linear-gradient(
+      transparent,transparent 20px, yellowgreen 22px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,transparent 20px, yellowgreen 22px
+    );
+    
+}
+
+
+.test_2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-right: 200px;
+    padding-left: 200px;
+    /* background: linear-gradient( #ffffff, transparent 1px), linear-gradient( 90deg, #ffffff, transparent 1px);
+    background-size: 2000px 15px;
+    background-position: center center; */
+    background: linear-gradient(rgb(255, 255, 255)90%, rgb(0, 0, 0));
+    background-size: 100% 15px;
+    
+}
+
+#test_3{
+    text-align: center;
+}
+
+.test_5{
+    color: black;
+    background-color: rgb(112, 128, 144);
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
