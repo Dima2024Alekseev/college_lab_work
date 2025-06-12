@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 задача</title>
+</head>
+<body>
+    <h3>Перегруппировка массива</h3>
+    <script>
+        function rearrangeArray(arr) {
+      const neg = []; // Создаем пустой массив для отрицательных элементов
+      const zero = []; // Создаем пустой массив для нулевых элементов
+      const pos = []; // Создаем пустой массив для положительных элементов
+      // Проходим по каждому элементу в массиве
+      for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < 0) {
+          neg.push(arr[i]); // Добавляем отрицательный элемент в массив neg
+        } else if (arr[i] == 0) {
+          zero.push(arr[i]); // Добавляем нулевой элемент в массив zero
+        } else {
+          pos.push(arr[i]); // Добавляем положительный элемент в массив pos
+        }
+      }
+
+      return neg.concat(zero, pos);  // Объединяем все три массива и возвращаем результат
+    }
+
+    const arr = [-1, 2, 0, -3, 5, 0, 7, -4];
+    const result = rearrangeArray(arr); // Вызываем функцию rearrangeArray и сохраняем результат в переменную result
+
+    const originalElement = document.createElement('p');    // Создаем новый элемент p
+    originalElement.textContent = 'Исходный массив: ' + arr; // Задаем текст содержимого элемента p
+    document.body.appendChild(originalElement); // Добавляем элемент p в тело документа
+
+    const resultElement = document.createElement('p');  // Создаем новый элемент p
+    resultElement.textContent = 'Результат: ' + result; // Задаем текст содержимого элемента p
+    document.body.appendChild(resultElement); // Добавляем элемент p в тело документа
+    </script>
+</body>
+</html>

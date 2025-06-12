@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;  
+}
+
+body{
+    background: linear-gradient( #bbbbbb40, transparent 1px), linear-gradient( 90deg, #bbbbbb40, transparent 1px);
+    background-color: rgb(28, 28, 40, 1);
+    background-size: 25px 25px;
+    background-position: center center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 97%;
+    padding-top: 20px;
+}
+
+.header-menu{
+    font-family: "Space Mono", monospace;
+    color: #C8C7D8;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;    
+}
+
+.button-Apply-for-grant{ 
+    background-color: #6966FF; 
+    width: 141px; 
+    height: 48px; 
+    font-size: 16px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    border: 0px;
+
+}
+
+.title{
+    margin-top: 150px;
+}
+
+.content{
+    margin-top: 150px;
+}
+
+.conteiner{
+    margin: auto;
+    width: 808px;
+}
+
+.logo-flex-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.content-text-1{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 450; 
+    font-size: 16px;
+    line-height: 24px; 
+    color: white;
+    margin: 10px;
+}
+
+.circle{
+    width: 44px;
+    height: 44px;
+    border-radius: 1000px;
+    background-color: #393953;
+}
+
+.avatar{
+    margin-top: 80px;
+}
+
+.avatar-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.text-Avatar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+}
+
+.avatar-flex{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.title-Guidelines{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.long-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #C8C7D8;
+    margin-top: 20px;
+}
+
+.information-text{
+    margin-top: 80px;
+}
+
+.footer{
+    width: 1224px;
+    margin: auto;
+    margin-top: 180px;
+    height: 100px;
+}
+
+.footer-text{
+    font-family: "Space Mono", monospace;
+    color: #C8C7D8;
+    margin-left: 30px;
+}
+
+.footer-menu-flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.icon-unwrap{
+    margin-left: 5px; 
+    width: 16px; 
+    height: 16px;
+}
+
+.flex-icon{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
